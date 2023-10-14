@@ -1,0 +1,5 @@
+---
+- hosts: default
+  gather_facts: true
+  roles:
+    - Windows-2022-CIS
